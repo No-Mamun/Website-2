@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="navlinks">
+            <li class="active"><a href=""></a>Home</li>
+            <li><a href=""></a>Tours</li>
+            <li><a href=""></a>Explore</li>
+            <li><a href=""></a>About</li>
+            <li class="ctn"><a>Contact</a></li>
+        </ul>
+        <img src="images/09e4cf39ca8f0dedd5037526b81110dc.jpg" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!--Events-->
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/12fa3e6c21aede58a881fde5b78205bd.jpg" alt="">
+                <h4>Everest camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente accusamus non officia nulla modi
+                    itaque quae molestiae aspernatur necessitatibus nostrum explicabo aperiam saepe voluptate doloribus,
+                    dicta natus dolore pariatur mollitia.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="images/12fa3e6c21aede58a881fde5b78205bd.jpg" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nobis ipsam nemo laudantium eos
+                    dignissimos nisi repellendus animi tempore non ea ut quae consectetur corporis esse dolore suscipit
+                    quia excepturi?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        });
+    </script>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <dir class="line"></dir>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui tempora corrupti ipsam officiis commodi
+                laboriosam quasi. Reiciendis quia officia iure debitis maxime vero qui aut, assumenda voluptate tempore
+                saepe harum?</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam veritatis facilis repellat. Et
+                    aperiam consectetur ratione dicta, aliquam rem architecto?
+                </P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="images/2a4714924c9c54f267fdefa39a1752c9.jpg" alt="">
+                    <img src="images/2a4714924c9c54f267fdefa39a1752c9.jpg" alt="">
+                    <img src="images/2a4714924c9c54f267fdefa39a1752c9.jpg" alt="">
+                    <img src="images/2a4714924c9c54f267fdefa39a1752c9.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>123 Fifth Avenue, NY 10160, New York ,USA | Phone:800-123-456 | Email : contact@examp</p>
+        <p>Copyright 0 2020 outdoor Adventure</p>
+    </section>
+</body>
+
+</html>
